@@ -1,7 +1,7 @@
 {
   "configVersion": "v3",
   "app": {
-    "appId": 28164,
+    "appId": 1,
     "appName": "Habitizepp",
     "appType": "app",
     "version": {
@@ -12,7 +12,7 @@
     "vender": "Yellow_Cat",
     "description": "An unofficial Habitica port to Zepp OS devices."
   },
-  "permissions": ["os.device.info", "network"],
+  "permissions": ["os.device.info", "network", "data:os.device.info"],
   "runtime": {
     "apiVersion": {
       "compatible": "3.6",
