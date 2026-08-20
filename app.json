@@ -1,0 +1,57 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 28164,
+    "appName": "Habitizepp",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "logo.png",
+    "vender": "Yellow_Cat",
+    "description": "An unofficial Habitica port to Zepp OS devices."
+  },
+  "permissions": ["os.device.info", "network"],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.6",
+      "target": "4.0",
+      "minVersion": "3.6"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "platforms": [
+        {
+          "st": "r"
+        },
+        {
+          "st": "s"
+        },
+        {
+          "st": "b"
+        }
+      ]
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Habitizepp"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
