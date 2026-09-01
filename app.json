@@ -1,8 +1,8 @@
 {
   "configVersion": "v3",
   "app": {
-    "appId": 1,
-    "appName": "Habitizepp",
+    "appId": 1124182,
+    "appName": "HabitiSync",
     "appType": "app",
     "version": {
       "code": 1,
@@ -50,7 +50,7 @@
   },
   "i18n": {
     "en-US": {
-      "appName": "Habitizepp"
+      "appName": "HabitiSync"
     }
   },
   "defaultLanguage": "en-US"

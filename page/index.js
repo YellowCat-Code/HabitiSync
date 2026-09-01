@@ -64,8 +64,8 @@ Page(
         url: "https://habitica.com/api/v3/user/auth/local/login",
         headers: {
           "Content-Type": "application/json",
-          "x-client": "9bb9057b-48ef-4769-85db-c12b8e9b6173-Habitizepp",
-          "User-Agent": "Habitizepp"
+          "x-client": "9bb9057b-48ef-4769-85db-c12b8e9b6173-HabitiSync",
+          "User-Agent": "HabitiSync"
         },
         body: JSON.stringify({
           username: this.state.UserName.trim(),
@@ -105,10 +105,10 @@ Page(
         method: "get",
         url: "https://habitica.com/api/v3/tasks/user",
         headers: {
-          "User-Agent": "Habitizepp",
+          "User-Agent": "HabitiSync",
           "x-api-user": tokens.userId,
           "x-api-key": tokens.apiToken,
-          "x-client": `9bb9057b-48ef-4769-85db-c12b8e9b6173-Habitizepp`,
+          "x-client": `9bb9057b-48ef-4769-85db-c12b8e9b6173-HabitiSync`,
           "Content-Type": "application/json"
         }
       })
@@ -245,8 +245,8 @@ Page(
           "Content-Type": "application/json",
           "x-api-user": this.state.userId,
           "x-api-key": this.state.apiToken,
-          "x-client": "9bb9057b-48ef-4769-85db-c12b8e9b6173-Habitizepp",
-          "User-Agent": "Habitizepp"
+          "x-client": "9bb9057b-48ef-4769-85db-c12b8e9b6173-HabitiSync",
+          "User-Agent": "HabitiSync"
         },
       })
       .then((result) => {

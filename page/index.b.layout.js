@@ -33,8 +33,8 @@ export const TASK_BUTTON = {
 export const BANNER = {
   normal_src: "image/banner.png",
   press_src: "image/banner.png",
-  x: centered_x - px(100),
-  y: px(60),
+  x: centered_x - px(88),
+  y: px(80),
   w: -1,
   h: -1,
   auto_scale: true,
