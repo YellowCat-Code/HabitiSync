@@ -7,7 +7,7 @@ HabitiZepp is able to recieve all the to-dos, habits, and dailies directly from 
 
 # How to try?
 **You will need a compatible watch**
-Go to the app store inside the Zepp App, look for HabitiSync, and install it. Then, configure your account into the settings app, and open your watch to see the icon.
+Go to the app store inside the Zepp App, look for HabitiSync (ID: 1124182), and install it. Then, configure your account into the settings app, and open your watch to see the icon.
 
 Compatible watches list: 
 - Amazfit Falcon
@@ -39,3 +39,8 @@ Compatible watches list:
 -  Amazfit Bip 6
 -  Amazfit Bip Max
 
+# Stardance
+This project was made for [Stardance](https://stardance.space/r-sx69z), Hack Club, the world's largest nonprofit movement of teenagers making cool projects.
+
+**Why isn't a real demo possible?:**
+This project has been made for a watch I got a few years ago, and I wanted to learn how to code and make something for myself, as well as for other people who might be able to use it. This means that you'll need one of the watches listed in the github README if you want to test it. If you don't own one, you can still watch the demo video I posted in the github README AND in the Demo URL. If, for some reason, you also got one of those watches, you can look for this code in the Zepp App Store: 1124182. (You can also look for the name HabitiSync).
